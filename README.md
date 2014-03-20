@@ -1,5 +1,5 @@
-Hacker News Reader
-==================
+News Reader
+===========
 
 
 #About
