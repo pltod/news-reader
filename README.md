@@ -1,10 +1,41 @@
-News Reader
-===========
+**STATE**
+
+> DEPRECATED. NOT WORKING SINCE THE API USED REQUIRES AUTHENTICATION NOW.
+
+> STILL A VALID JAVASCRIPT SINGLE PAGE APPLICATION STRUCTURE.
+
+> FOR A WORKING APPLICATION THAT USES GIHUB API SEE https://github.com/pltod/github-demo-app
+
+
+**PURPOSE**
+
+> Experimenting with SPA application structure using Backbone, Backbone Layout Manager, Require JS, Grunt, and Twitter Bootstrap.
+
+
+**HOW TO RUN IT**
+
+
+See Installation Instructions bellow.
+
+Note that if done correctly the app will load but data will not be loaded because the used API now requires some sort of authentication.
+
+
+**FOLLOW UP**
+
+https://github.com/pltod/github-demo-app
+
+
+
+
+****
+
+Next is detailed description of the News Reader project...
+
 
 
 #About
 
-Just Another Hacker News Application
+Just Another News Reader Application
 
 It uses the unofficial hacker news API (http://hndroidapi.appspot.com/)
 Note that the public access to the API is not allowed. So until this is valid the application is not working.
@@ -28,13 +59,9 @@ Grunt and Bower are used so apart from importing the app it will require some mo
       Step 3) in the root of the project from the command line run 'bower install' to install bower components
       
       Step 4) run the application with opening index.html from the root of the project
-
-Additional Steps to try the production build (concatenated and minified scripts and styles)
       
       Step 5) install Grunt CLI with npm install -g grunt-cli
       
       Step 6) in the root of the project from the command line run npm install to install grunt plugins
       
       Step 7) create the production version of the app with executing the command 'grunt' from the root of the project
-
-As a result dist folder will be created with production files.
