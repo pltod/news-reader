@@ -46,7 +46,7 @@ For example if the Hacker News API does not return data for any reason the appli
 
 The application returns news from the Hacker News homepage since the newest entries mostly do not have any comments. The application interprets ’20 top comments’ as the first 20 comments returned by the API without ordering them somehow. Moreover, the comments text is not formatted appropriately in this version. This is considered a feature that must not be part of the MVP.
 
-The application structure is inspired by Backbone Boilerplate with some modifications like working with precompiled Handlebars templates, using Bower for managing dependencies, some changes in the Require JS approach etc.
+The application structure is inspired by Backbone Boilerplate (https://github.com/backbone-boilerplate/backbone-boilerplate) with some modifications made on different aspects.
 
 #Installation Instructions
 
